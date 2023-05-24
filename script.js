@@ -24,7 +24,10 @@ function updateTime() {
 		}
 		else if (hours == 0) {
 		newHours = 12;
-	}
+	   }
+	   else {
+		   newHours = hours;
+	   }
       const minutes = d.getMinutes();
       const seconds = d.getSeconds();
 
