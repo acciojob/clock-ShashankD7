@@ -1,3 +1,12 @@
+window.onerror = function(message, source, lineno, colno, error) {
+  // Handle the exception here
+  console.error('Uncaught Exception:', message, error);
+
+  // Prevent the error from being displayed in the console
+  return true;
+};
+
+
 function updateTime() {
       // Get the current date and time
       const d = new Date();
