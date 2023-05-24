@@ -14,7 +14,7 @@ function updateTime() {
       // Get the date components
       const month = d.getMonth() + 1; // January is month 0
       const day = d.getDate();
-      const year = d.getFullYear().toString(); // Get the last two digits
+      const year = d.getFullYear(); // Get the last two digits
 
       // Get the time components
       const hours = d.getHours();
