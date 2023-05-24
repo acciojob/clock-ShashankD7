@@ -29,8 +29,8 @@ function updateTime() {
       const seconds = d.getSeconds();
 
       // Format the date and time strings
-      const formattedDate = `${month.toString().padStart(2, '0')}/${day.toString().padStart(2, '0')}/${year}`;
-      const formattedTime = `${newHours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+      const formattedDate = `${month}/${day}/${year}`;
+      const formattedTime = `${newHours}:${minutes}:${seconds}`;
 
       // Determine AM/PM
       const ampm = hours >= 12 ? 'PM' : 'AM';
